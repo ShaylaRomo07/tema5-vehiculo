@@ -1,10 +1,10 @@
 package org.ies.tierno.model;
 
-public abstract class Vehicule {
+public abstract class Vehicle {
     protected int kmDone;
     protected String registration;
 
-    public Vehicule(int kmDone, String registration) {
+    public Vehicle(int kmDone, String registration) {
         this.kmDone = kmDone;
         this.registration = registration;
     }

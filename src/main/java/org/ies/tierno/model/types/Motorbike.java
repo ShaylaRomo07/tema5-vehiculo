@@ -1,8 +1,8 @@
 package org.ies.tierno.model.types;
 
-import org.ies.tierno.model.Vehicule;
+import org.ies.tierno.model.Vehicle;
 
-public class Motorbike extends Vehicule {
+public class Motorbike extends Vehicle {
     private int displacement;
 
     public Motorbike(int kmDone, String registration, int displacement) {
