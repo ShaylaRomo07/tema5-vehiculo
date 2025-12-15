@@ -11,7 +11,7 @@ public class Motorbike extends Vehicle {
     }
     @Override
     public void showInfo() {
-        System.out.println("Vehiculo: Camión");
+        System.out.println("Vehiculo: Moto");
         System.out.println("KM Realizados: " + kmDone);
         System.out.println("Matricula: " + registration);
         System.out.println("Cilindrada " + displacement);
